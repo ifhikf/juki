@@ -1,4 +1,0 @@
-while [ 1 ]; do
-	./wildrig-multi -a megabtx  -o stratum+tcp://stratum-eu.rplant.xyz:7066 -u RVWrWTyn5WCz1zqR15qm7bGeNcTZtmivs2.jos -p d=2,password=joss  --opencl-launch auto --print-full --print-power
-	sleep 5
-done
